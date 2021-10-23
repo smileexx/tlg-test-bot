@@ -1,5 +1,5 @@
 const MongoClient = require('mongodb').MongoClient;
-const mongoUri = process.env.MONGO_URI || 'mongodb+srv://tlg-test-bot:9jyxNelyfGpYxAD4@cluster0.isl5a.mongodb.net/tlg-bot-db?retryWrites=true&w=majority';
+const mongoUri = process.env.MONGO_URI;
 
 const mongoClientOptions = {useNewUrlParser: true, useUnifiedTopology: true};
 
